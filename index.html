@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MORPH | Madras Organization for Research and Public Health</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<div id="internCorner" style="
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  max-width:320px;
+  background:#ffffff;
+  padding:18px;
+  border-radius:12px;
+  box-shadow:0 8px 20px rgba(0,0,0,0.2);
+  display:none;
+  z-index:9999;
+  font-family:inherit;
+">
+  <strong style="color:#0A2540;">🚀 Call for Interns</strong>
+  <p style="font-size:14px; margin:10px 0;">
+    Join MORPH’s internship program in Public Health, AI, Data Science & Research.
+  </p>
+
+  <a href="contact.html#apply" style="
+    display:inline-block;
+    margin-top:8px;
+    padding:8px 14px;
+    background:#d97706;
+    color:#fff;
+    text-decoration:none;
+    border-radius:6px;
+    font-size:14px;
+    font-weight:bold;
+  ">
+    Apply Now
+  </a>
+
+  <button onclick="closeCorner()" style="
+    background:none;
+    border:none;
+    float:right;
+    font-size:14px;
+    cursor:pointer;
+    color:#777;
+  ">
+    ✕
+  </button>
+</div>
+<script>
+  window.onload = function () {
+    if (!sessionStorage.getItem("internCornerShown")) {
+      setTimeout(() => {
+        document.getElementById("internCorner").style.display = "block";
+        sessionStorage.setItem("internCornerShown", "true");
+      }, 2000);
+    }
+  };
+
+  function closeCorner() {
+    document.getElementById("internCorner").style.display = "none";
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body style="position: relative;">
+    <div class="universe">
+
+
+<header class="header">
+  <div class="morph-bg"></div>
+   <div class="header-content"></div>
+  <div style="display:flex; align-items:center; justify-content:center; gap:15px;">
+    <img src="morph.jpeg" class="logo" alt="MORPH Logo" style="width: 120px;0px; height: 120px;" style="display:flex;">
+    <div class="marquee"> 
+      <h1  style="margin:0;">MORPH</h1>
+      <p style="margin:0;"><span> Madras Organization for Research and Public Health</span></p>
+    </div>
+  </div>
+  <nav style="margin-top:15px;text-align:center;">
+    <a href="index.html" class="nav-link active">Home</a>
+    <a href="about.html" class="nav-link">About</a>
+    <a href="research.html" class="nav-link">Research</a>
+    <a href="programs.html" class="nav-link">Programs</a>
+    <a href="media.html" class="nav-link">Media</a>
+    <a href="team.html" class="nav-link">Team</a>
+    <a href="join.html" class="nav-link">Join Us</a>
+    <a href="contact.html" class="nav-link">Contact</a>
+  </nav>
+</header>
+
+<!-- ================= HERO SECTION ================= -->
+<section style="text-align:center; padding:60px 30px;">
+  
+  <!-- TAGLINE -->
+  <h2 style="font-size:32px; margin-bottom:10px;">
+    Where Science, Society, and the Future Converge
+  </h2>
+
+  <!-- SLOGANS -->
+  <p style="font-size:18px; font-weight:bold; margin:10px 0;">
+    Advancing Occupational & Public Health through Science and Technology
+  </p>
+
+  <p style="font-size:16px; margin-bottom:30px;">
+    Applied Research for Real-World Health Impact
+  </p>
+
+  <a href="about.html">
+    <button>Learn More About MORPH</button>
+  </a>
+
+</section>
+
+<!-- ================= INTRO SECTION ================= -->
+<section >
+  <h2>About MORPH</h2>
+  <p>
+    The Madras Organization for Research and Public Health (MORPH) is an applied research,
+    training, and analytics institution focused on occupational health, public health
+    operations, industrial safety, and AI-enabled health systems.
+  </p>
+
+  <p>
+    MORPH functions at the interface of field research, technology, and policy
+    implementation, ensuring that scientific methods translate into tangible
+    improvements in worker and population health.MORPH emphasizes real-world 
+    impact over academic output, prioritizing prevention, system strengthening, 
+    and workforce capacity building. All activities are grounded in ethical practice,
+    operational feasibility, and societal relevance.
+  </p>
+</section>
+
+<!-- ================= MAIN FOCUS ================= -->
+<section >
+  <h2>Main Focus of MORPH</h2>
+  <ul>
+    <li>Applied occupational and public health research</li>
+    <li>Workplace health risk identification and prevention</li>
+    <li>Industrial safety systems and monitoring</li>
+    <li>Predictive analytics and AI-enabled health tools</li>
+    <li>Digital health infrastructure development</li>
+    <li>Capacity building through internships and training</li>
+  </ul>
+</section>
+
+
+<!-- ================= CALL FOR INTERNS ================= -->
+<section>
+  <h2>Call for Interns</h2>
+
+    
+
+
+  <p style="font-size:18px; max-width:900px; margin:auto;">
+    MORPH (Madras Organization for Research and Public Health) invites motivated students
+    and young professionals to join our internship program and contribute to real-world
+    public and occupational health initiatives.
+  </p>
+  <img src="poster.png" alt="MORPH Logo"
+     style="width:500px; height:600px; float:right; margin-left:20px;">
+
+  <div style="margin-top:30px;">
+    <h3>Who Can Apply?</h3>
+    <ul>
+      <li>Public Health</li>
+      <li>Life Sciences</li>
+      <li>Occupational Health & Safety</li>
+      <li>Data Science / AI</li>
+      <li>IT, Web & Research Analytics</li>
+    </ul>
+  </div>
+
+  <div style="margin-top:30px;">
+    <h3>What You Will Gain</h3>
+    <ul>
+      <li>Hands-on experience in applied research</li>
+      <li>Exposure to real-world health projects</li>
+      <li>Mentorship from experienced professionals</li>
+      <li>Internship Certificate from MORPH</li>
+    </ul>
+  </div>
+
+  <div style="margin-top:40px;">
+    <h3>How to Apply</h3>
+    <p>
+      Send your CV and a short statement of interest to:
+    </p>
+    <a  href="contact.html">
+      <button>Apply for Internship</button>
+    </a>
+  </div>
+</section>
+
+
+
+
+<!-- ================= CALL TO ACTION ================= -->
+<section >
+  <h2>Turning Research into Real-World Impact</h2>
+  <p>
+    MORPH is committed to translating science into measurable improvements in worker
+    and population health.
+  </p>
+
+  <a href="contact.html">
+    <button>Contact Us</button>
+  </a>
+</section>
+</div>
+  
+<!-- ================= FOOTER ================= -->
+<footer>
+  <p>© 2025 MORPH – Madras Organization for Research and Public Health</p>
+  <p>Chennai, India</p>
+</footer>
+
+</body>
+</html>
